@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+.barefootjpg {
+  max-width: 50px;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: 3fr repeat(4, 1fr) 3fr;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.nav2 {
+  display: none;
+}
+.nav2 #myLinks {
+  display: none;
+}
+.nav2 a.icon {
+  display: block;
+  float: right;
+  padding: 13px 0;
+}
+#myLinks a {
+  display: block;
+}
+.nav2 a {
+  color: black;
+}
+.nav2 a:hover {
+  color: black;
+}
+.col {
+  align-self: center;
+}
+.col .col6 {
+  text-align: right;
+}
+.grid1 a {
+  text-decoration: none;
+  color: black;
+}
+.grid1 a:hover {
+  color: black;
+}
+h6 {
+  font-size: 10px;
+  line-height: 21px;
+  letter-spacing: -0.015em;
+}
+.flexboxcontainer1 {
+  display: flex;
+  background-image: url(img1.jpg);
+  height: 659px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.flexboxcontainer1 h1,
+h6 {
+  margin: 50px;
+  color: white;
+}
+.button {
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  padding: 5px 25px;
+  max-width: 180px;
+  margin: 50px;
+  font-weight: 700;
+  border: 2px solid white;
+}
+.button:hover {
+  background-color: black;
+}
+main h1 {
+  margin: 5vw 0 0 3vw;
+}
+.shoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5vw 0;
+}
+.shoe-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 10px 20px 10px;
+  width: 30vw;
+}
+.shoe-box a {
+  color: black;
+  text-decoration: none;
+}
+.shoe-box a:hover {
+  color: black;
+}
+.shoe-box p {
+  color: black;
+  margin: 0;
+}
+.flexboxcontainer2 {
+  display: flex;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.flexboxcontainer2 h1,
+p {
+  margin: 50px;
+  color: white;
+}
+.flexboxcontainer2 .item1,
+.item2 {
+  width: 50%;
+}
+
+.video-container {
+  position: relative;
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.content h1 {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw;
+  font-weight: 700;
+  color: white;
+  text-shadow: 3px 3px #000;
+}
+.content button {
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  padding: 5px 25px;
+  font-weight: 700;
+  border: 2px solid white;
+  margin: 10px 43vw;
+}
+.content button:hover {
+  background-color: black;
+}
+
+.world {
+  position: relative;
+}
+.world .shoe-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 10px 20px 10px;
+  width: 45%;
+}
+.world .button {
+  background-color: black;
+  margin: 0 43vw 3vw 43vw;
+}
+.world .button:hover {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid black;
+}
+.world h1,
+h3 {
+  margin: 3vw 0 0 3vw;
+}
+.world h1 {
+  line-height: 10vw;
+}
+footer p {
+  color: #000;
+}
+footer p {
+  width: 30%;
+  float: left;
+}
+footer input {
+  width: 50%;
+  float: right;
+  margin: 0 4vw 0 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+}
+ul li {
+  align-self: center;
+}
+.container li a {
+  color: #000;
+  text-decoration: none;
+}
+.container li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+p::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (max-width: 600px) {
+  * {
+    line-height: normal;
+  }
+  .grid1 {
+    display: none;
+  }
+  .nav2 {
+    display: inline;
+  }
+  .shoes .shoe-box {
+    width: 100%;
+  }
+  .flexboxcontainer1 {
+    background-image: url(img1_1.jpg);
+    background-position: 75%;
+  }
+  .flexboxcontainer2 {
+    flex-direction: column;
+  }
+  .flexboxcontainer2 .item1,
+  .item2 {
+    width: 100%;
+  }
+  #recycled {
+    display: none;
+  }
+  .content h1 {
+    display: none;
+  }
+  .content button {
+    bottom: 0;
+    margin: 10px 18vw;
+  }
+  .world .button {
+    margin: 0px 30vw;
+  }
+  .world h1 {
+    line-height: normal;
+  }
+  footer p,
+  input {
+    float: none;
+    margin-right: 0;
+  }
+  footer p {
+    width: 100%;
+    margin-top: 10px;
+  }
+  footer input {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .container li:nth-child(2) {
+    display: none;
+  }
+  .container li:nth-child(3) {
+    display: none;
+  }
+  .container li:nth-child(4) {
+    display: none;
+  }
+  .container li:last-child {
+    text-align: right;
+  }
+}
