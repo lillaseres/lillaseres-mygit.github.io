@@ -63,7 +63,7 @@ h6 {
 }
 .flexboxcontainer1 {
   display: flex;
-  background-image: url(img1.jpg);
+  background-image: url(../img/img1.jpg);
   height: 659px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -249,7 +249,7 @@ p::after {
     width: 100%;
   }
   .flexboxcontainer1 {
-    background-image: url(img1_1.jpg);
+    background-image: url(../img/img1_1.jpg);
     background-position: 75%;
   }
   .flexboxcontainer2 {
