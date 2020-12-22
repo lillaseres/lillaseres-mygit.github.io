@@ -20,6 +20,9 @@ img {
   position: relative;
   overflow: hidden;
 }
+nav div:last-child {
+  text-align: right;
+}
 .nav2 {
   display: none;
 }
